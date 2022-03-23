@@ -5,7 +5,7 @@ const conn = mysql.createConnection({
   host: "localhost",
   user: "root",
   password: "root",
-  database: "db_api",
+  database: "restapidb",
 });
 
 conn.connect((err) => {
